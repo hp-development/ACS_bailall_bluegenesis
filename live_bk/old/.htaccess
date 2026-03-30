@@ -1,0 +1,21 @@
+### HTTPS REDIRECT CODE START
+### DO NOT REMOVE, MUST BE FIRST DIRECTIVE IN .htaccess
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+Header always set Content-Security-Policy "upgrade-insecure-requests;"
+### HTTPS REDIRECT CODE END
+### SSL PROVISIONING CODE START
+### DO NOT REMOVE, MUST BE FIRST DIRECTIVE IN .htaccess
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_URI} ".*/\.well-known/.*" [NC]
+RewriteRule ^.*\.well-known(/.*)?$ - [END]
+### SSL PROVISIONING CODE END
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^(.*)\.anaheimbail-bonds\.com$ [NC]
+RewriteRule ^(.*)$ https://www.anaheimbail-bonds.com/$1 [R=301,L]
+Redirect 301 /contactus.html http://anaheimbail-bonds.com/contactus.php
+Redirect 301 /find_an_inmate.html http://www.anaheimbail-bonds.com/find_an_inmate.php
+Redirect 301 /index.html http://anaheimbail-bonds.com/index.php
+Redirect 301 /services.html http://anaheimbail-bonds.com/services.php

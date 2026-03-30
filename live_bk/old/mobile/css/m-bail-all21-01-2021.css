@@ -1,0 +1,68 @@
+.dummy{}
+html{color:#000000;}body,div,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote{margin:0;padding:0;}
+table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit; border:none;}
+legend{color:#000;}strong{ font-weight:bold; }
+
+body{margin:0; padding:0; font-family: "Times New Roman", Times, serif color:#000; font-size:14px; font-weight:normal;}
+
+.clear{clear:both;}
+.clear-left{float:left;}
+.clear-right{float:right;}
+a, img{border:none; outline:none;}
+a{outline:none; text-decoration:none; font-family:"Times New Roman", Times, serif; color:#0005fe; font-weight:normal;}
+a:hover	{text-decoration:underline;}
+
+p	{ font-family:"Times New Roman", Times, serif; color:#000; font-weight:normal;  margin:0 0 15px 0; }
+h1	{ font-family:"Times New Roman", Times, serif; color:#000; font-size:24px; font-weight:bold; padding-bottom:5px; text-align:center;}
+h2	{ font-family:"Times New Roman", Times, serif; color:#000; font-size:18px; font-weight:bold; padding-bottom:5px; text-align:left; border-bottom:1px solid #CCC;}
+input, textarea, select{ border:1px solid #7f9db9; margin:0 0 5px 0; width:175px; font-family:Arial, Helvetica, sans-serif;}
+
+
+
+/* Containor
+----------------------------------------------------------------------------- */
+#containor{width:100%;}
+
+/* Header
+----------------------------------------------------------------------------- */
+#header{padding:7px 0 10px 0px; background:url(../images/header-bg.jpg) center bottom no-repeat; height:93px; max-width:360px; }
+
+
+/* Content
+----------------------------------------------------------------------------- */
+#content{padding:0 12px; max-width:336px; overflow:hidden;}
+
+
+#middle-content{padding-bottom:10px; width:100%; float:left;}
+
+#middle-content p img{padding:0 10px 0 0;  float:left;}
+.call-now { font-size:16px; float:left; width:100%;}
+.phone {font-size:24px; font-weight:bold; float:left; color:#F00; width:336px;}
+.red-16 {font-size:16px; font-weight:bold; float:left; color:#F00;  width:336px;}
+
+.from-main	{ font-family: Arial, Helvetica, sans-serif; color:#000; font-weight:normal; font-size:14px; }
+
+.input-btn{ width:auto; font-family:Arial, Helvetica, sans-serif;}
+.iframe-div{ width:100%; float:left; text-align:center;}
+iframe{ width:100%; }
+
+.contentmain {width:98%; float:left; padding:0 0 15px 2%;}
+.contentmain ul{margin:0; padding:0;}
+.contentmain li{padding:0 0 5px 28px; line-height:18px; font-size:14px; list-style:none; text-align:left; background:url(../images/liberty_bt.gif) left 1px no-repeat;}
+
+
+.phone-btn { float:left !important; text-align:center; width:336px; padding:5px 0 10px 0; }
+
+#footer{text-align:center; width:96%; padding:0 2% 20px 2%;}
+.topmenu{ padding-right:10px; }
+
+/*300312*/
+.costa{ font-size:19px; font-weight:bold; text-align:center; color:#c2020f; font-family:Arial, Helvetica, sans-serif;}
+.bail-new{ font-size:17px; font-family:Verdana, Geneva, sans-serif; font-weight:bold; text-align:center; color:#800500;}
+.add{ font-family:Arial, Helvetica, sans-serif; font-size:13px; font-weight:bold; color:#4f484f;}
+.add a{ font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+.blue{ color:#0000cc; font-style:italic; }
+.blue1{ color:#065fb9;}

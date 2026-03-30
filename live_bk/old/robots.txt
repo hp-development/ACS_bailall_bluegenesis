@@ -1,0 +1,4 @@
+User-agent: *
+
+SITEMAP: http://www.anaheimbail-bonds.com/sitemap.xml
+Disallow: /js/
